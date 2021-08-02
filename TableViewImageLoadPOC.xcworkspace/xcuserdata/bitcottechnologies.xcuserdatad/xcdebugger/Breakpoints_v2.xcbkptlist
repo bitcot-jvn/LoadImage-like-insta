@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "945A94F2-4E93-4EF8-B011-10FF667AEA19"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E705826-6485-4054-BAF4-A6D986002A0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewImageLoadPOC/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "networkRequest(_:compilation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E705826-6485-4054-BAF4-A6D986002A0D - 7bc80c2d5df4bae8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static TableViewImageLoadPOC.Network.networkRequest(_: TableViewImageLoadPOC.NetworkRequestResourceType, compilation: (TableViewImageLoadPOC.Result&lt;Any, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TableViewImageLoadPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bitcottechnologies/Documents/TableViewImageLoadPOC/TableViewImageLoadPOC/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "6E705826-6485-4054-BAF4-A6D986002A0D - f7312c8e16200100"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TableViewImageLoadPOC.Result&lt;Any, __C.NSError&gt;) -&gt; () in static TableViewImageLoadPOC.Network.networkRequest(_: TableViewImageLoadPOC.NetworkRequestResourceType, compilation: (TableViewImageLoadPOC.Result&lt;Any, __C.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TableViewImageLoadPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bitcottechnologies/Documents/TableViewImageLoadPOC/TableViewImageLoadPOC/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0755D27-AE41-4FDF-B67C-A5F953F660EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewImageLoadPOC/Network/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "callApiPostMethod(str_Action:param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83EF9430-9195-4189-BD5F-DFB7809C59C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewImageLoadPOC/ViewModal/LoadImagesVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "success_serverResponse(data:actionStr:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DCB9078-4513-4A3F-9FF9-5BE4BF853257"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewImageLoadPOC/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "dataTask(path:method:param:complitionBlock:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A466906-9207-4827-82DF-AA59ED801968"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewImageLoadPOC/ViewModal/LoadImagesVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,6 @@
+framework module Pods_TableViewImageLoadPOC_TableViewImageLoadPOCUITests {
+  umbrella header "Pods-TableViewImageLoadPOC-TableViewImageLoadPOCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

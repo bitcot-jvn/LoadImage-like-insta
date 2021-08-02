@@ -7,13 +7,27 @@
 
 import UIKit
 import Foundation
+import SDWebImage
 
 class LoadeImagesVC: BaseViewController {
 
+    //MARK: Outlets
+    @IBOutlet weak var tblImagesLoader: UITableView?
+    
+    //MARK: Variables
+    var viewModal: LoadImagesVM?
+    var baseURL: [URL]?
+    
     //MARK: Default Function
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.configureUI()
+    }
+    
+    func configureUI(){
+        self.viewModal = LoadImagesVM()
+        self.viewModal?.vc = self
+        self.tblImagesLoader?.tableFooterView = UIView()
     }
 }
 
@@ -21,13 +35,18 @@ class LoadeImagesVC: BaseViewController {
 extension LoadeImagesVC: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return self.viewModal?.arrData.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CellImages", for: indexPath) as! CellImages else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CellImages", for: indexPath) as? CellImages else {
             return UITableViewCell()
         }
+        cell.data = self.viewModal?.arrData[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150.0
     }
 }
